@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+    width: 300px;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+input {
+    padding: 8px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.paginacao {
+    margin-top: 10px;
+}
+.paginacao button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.info-pagina {
+    display: inline-block;
+    margin: 0 10px;
+}

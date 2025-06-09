@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca Insensível a Maiúsculas</title>
+</head>
+<body>
+    <h1>Exercício 04: Busca Insensível a Maiúsculas</h1>
+
+    <table id="tabela">
+        <thead>
+          <tr><th onclick="ordenarTabela()">Nome</th><th>Idade</th></tr>
+        </thead>
+        <tbody id="dadosTabela">
+          <tr><td>Carlos</td><td>30</td></tr>
+          <tr><td>Ana</td><td>25</td></tr>
+          <tr><td>Bruno</td><td>28</td></tr>
+          <tr><td>dado dolabela</td><td>28</td></tr>
+          <tr><td>Enzo</td><td>28</td></tr>
+          <tr><td>fernanda Montenegro</td><td>28</td></tr>
+        </tbody>
+      </table>
+      <input type="text" id="busca" onkeyup="buscarTabela()" placeholder="Buscar por nome">
+
+      <script src="script.js" defer></script>
+
+    </body>
+</html>
